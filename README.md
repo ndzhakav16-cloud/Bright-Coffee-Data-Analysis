@@ -20,3 +20,7 @@ Using the Following Tools
 
 # SUMMARY OF REPORT
 The Bright Coffee Shop is on a strong growth trajectory, with clear strengths in core products (Coffee & Tea) and morning sales. By focusing on product optimization, targeted promotions, and time-based strategies, the CEO can further increase revenue and maximize business performance.
+
+# CONTACT ME
+ PHONE : 073 635 7720
+ Email: ndzhakav16@gmail.com
