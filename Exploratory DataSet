@@ -1,0 +1,98 @@
+
+--Checking all the columns on the dataset
+
+SELECT*
+FROM
+  BRIGHT.COFFEE.SALES;
+
+  -- Checkingn the Transaction Dates and the last record of the Transaction 
+  
+SELECT 
+      MIN(Transaction_Date)AS First_Record_Date ,
+      MAX (Transaction_Date)AS latest_Record_Date,
+
+ FROM
+  BRIGHT.COFFEE.SALES;
+
+--Checkingn the time the shop oppens and the time its Closes
+
+SELECT
+     MIN(Transaction_Time)AS Openning_Time,
+     MAX(Transaction_time)AS Closing_Time,
+ FROM
+  BRIGHT.COFFEE.SALES;
+
+--couting the number of Store
+
+SELECT
+    COUNT(DISTINCT Store_ID)AS Number_Of_Stores,
+   FROM BRIGHT.COFFEE.SALES;
+
+-- Listing/Getting the names of Stores
+
+SELECT  
+    DISTINCT Store_location AS Name_of_Stores,
+FROM BRIGHT.COFFEE.SALES;
+
+
+-- How many Product the Stores are Selling
+
+  SELECT  
+      COUNT(DISTINCT Product_ID)AS Number_of_Product
+FROM BRIGHT.COFFEE.SALES;  
+     
+--Checking how many Product per Product Category As Total_Product
+
+ SELECT 
+    Product_Category,
+    COUNT( * ) AS total_products
+FROM BRIGHT.COFFEE.SALES
+GROUP BY Product_Category
+ORDER BY total_products DESC;
+
+--Checking the product type and the its total
+
+SELECT 
+   Product_Type,
+   COUNT(PRODUCT_TYPE) AS Product_Total
+    
+FROM Bright.COFFEE.SALES
+GROUP BY Product_Type;
+
+
+
+--Checking the product details of product categories
+
+SELECT DISTINCT PRODUCT_DETAIL
+    FROM BRIGHT.COFFEE.SALES
+  WHERE PRODUCT_CATEGORY ILIKE('Tea');
+
+  
+SELECT DISTINCT PRODUCT_DETAIL
+  FROM BRIGHT.COFFEE.SALES
+WHERE PRODUCT_CATEGORY ILIKE('Coffee');
+
+SELECT DISTINCT PRODUCT_DETAIL
+  FROM BRIGHT.COFFEE.SALES
+WHERE PRODUCT_CATEGORY ILIKE('Bakery');
+
+
+SELECT DISTINCT PRODUCT_DETAIL
+  FROM BRIGHT.COFFEE.SALES
+WHERE PRODUCT_CATEGORY ILIKE('Coffee Beans');
+
+--Checking the Min And Max Unit Price
+
+SELECT 
+
+    MIN(unit_price) AS min_price,
+    MAX(unit_price) AS max_price,
+
+FROM Bright.COFFEE.SALES;
+
+--Checking the Averange Unit Price
+
+SELECT 
+
+  AVG(unit_price) AS avg_price,
+FROM Bright.COFFEE.SALES;
