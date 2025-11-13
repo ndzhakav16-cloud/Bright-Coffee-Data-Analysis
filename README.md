@@ -22,7 +22,12 @@ Using the Following Tools
 The Bright Coffee Shop is on a strong growth trajectory, with clear strengths in core products (Coffee & Tea) and morning sales. By focusing on product optimization, targeted promotions, and time-based strategies, the CEO can further increase revenue and maximize business performance.
 
 # Tech Tools Used
-SQL, Excel,Miro,Google Looker Studio And Power Point.
+Tool	Purpose
+  *SQL - Data extraction, querying, and transformation
+  *Excel - Data cleaning and exploratory analysis
+  *Google Looker Studio - Interactive dashboard creation
+  *Miro - Process mapping and planning
+  *PowerPoint	Presentation - for insights and recommendations
 
 # CONTACT ME
  PHONE : 073 635 7720
