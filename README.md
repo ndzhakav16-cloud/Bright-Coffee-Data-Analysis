@@ -1,33 +1,39 @@
-# Bright-Coffee-Analysis
-Analyzing Data For The New CEO to understand the current position of the Company based on last month
+# BRIGHT COFFEE ANALYSIS
+Analyzing Data for the New CEO to Understand the Current Position of the Company Based on Last Month
 
-# ITRODUCTION
-Bright Coffee Shop operates in a highly competitive food and beverage market where customer preferences, convenience, and product quality play a vital role in business success. As the company seeks to expand , data-driven decision-making has become essential.With the recent appointment of a new CEO whose mission is to increase revenue and improve product performance, there is a strong need to evaluate sales data systematically. By identifying top-selling products, analyzing sales by time intervals, and uncovering purchasing trends.
+# INTRODUCTION
+
+Bright Coffee Shop operates in a highly competitive food and beverage market where customer preferences, convenience, and product quality play a vital role in business success. As the company seeks to expand, data-driven decision-making has become essential. With the recent appointment of a new CEO whose mission is to increase revenue and improve product performance, there is a strong need to evaluate sales data systematically. This analysis focuses on identifying top-selling products, examining sales by time intervals, and uncovering purchasing trends that influence overall business performance.
 
 # PROBLEM STATEMENT
-Bright Coffee Shop has been collecting daily transactional data, but the business lacks clear insights into which products are driving revenue, when customers are most active, and how sales trends evolve over time. With the appointment of a new CEO focused on revenue growth and product performance, there is a need to understand historical sales trends, identify high-performing and underperforming products, and uncover opportunities for growth and optimization.
-Currently, decision-making is based on assumptions rather than data-driven evidence, which risks missed opportunities for increasing sales, optimizing the product mix, and improving customer experience. Without understanding top-performing products, peak sales periods, and customer preferences, the coffee shop may struggle to stay competitive and achieve sustainable growth.
+
+Bright Coffee Shop has been collecting daily transactional data, but the business lacks clear insights into which products are driving revenue, when customers are most active, and how sales trends evolve over time. With a new CEO focused on revenue growth and product optimization, there is an urgent need to understand historical sales patterns, identify high-performing and underperforming products, and uncover opportunities for improvement.
+
+Currently, decision-making is based on assumptions rather than evidence, creating a risk of missed opportunities for increasing sales, optimizing the product mix, and enhancing customer experience. Without understanding top-performing products, peak sales periods, and customer preferences, the coffee shop may struggle to stay competitive and achieve sustainable growth.
 
 # AIM
-To analyze historical sales data of Bright Coffee Shop in order to uncover actionable insights that will support strategic decisions aimed at increasing revenue and improving product performance, performance trends, and customer purchasing behaviors that will guide strategic decisions for revenue growth and product optimization.
+
+To analyze the historical sales data of Bright Coffee Shop in order to uncover actionable insights that support strategic decisions aimed at increasing revenue and improving product performance. This analysis will focus on identifying sales trends, product-level performance, and customer purchasing behavior, ultimately guiding the CEO in making informed decisions for growth and optimization.
 
 # OBJECTIVES
-Evaluate overall sales performance over time to identify trends and seasonality,and Identify top-performing and underperforming products based on revenue and quantity sold for the past six months, by doing this it will be allowing me to do Data inspection that is collected for the past months.
-Using the Following Tools
-- Snowflake for Data processing in SQL
-- Microsoft Excel To create Charts and Graphs
-- Power BI To develop an interactive Dashboard to Track the Performance Continuesly.
+
+Evaluate overall sales performance over time to identify trends and seasonality.
+Identify top-performing and underperforming products based on revenue and quantity sold over the past six months.
+Conduct data inspection and quality checks to ensure the accuracy and reliability of insights
 
 # SUMMARY OF REPORT
-The Bright Coffee Shop is on a strong growth trajectory, with clear strengths in core products (Coffee & Tea) and morning sales. By focusing on product optimization, targeted promotions, and time-based strategies, the CEO can further increase revenue and maximize business performance.
 
-# Tech Tools Used
-Tool	Purpose
-  *SQL - Data extraction, querying, and transformation
-  *Excel - Data cleaning and exploratory analysis
-  *Google Looker Studio - Interactive dashboard creation
-  *Miro - Process mapping and planning
-  *PowerPoint	Presentation - for insights and recommendations
+Bright Coffee Shop is on a strong growth trajectory, with clear strengths in its core products (Coffee and Tea) and peak performance during morning hours. By focusing on product optimization, targeted promotions, and time-based sales strategies, the CEO can further increase revenue and maximize business performance. The insights provided in this report will help guide strategic planning and support evidence-based decision-making.
+
+| Tool                     |Purpose                                   |
+| ------------------------ | --------------------------------------------- |
+| SQL                      | Data extraction, querying, and transformation |
+| Excel                    | Data cleaning and exploratory data analysis   |
+| Google Looker Studio     | Interactive dashboard creation                |
+| Miro                     | Process mapping and planning   
+| Gantt Chart              | Project Planning and scheduling
+| PowerPoint               | Presenting insights and recommendations       |
+
 
 # CONTACT ME
  PHONE : 073 635 7720
