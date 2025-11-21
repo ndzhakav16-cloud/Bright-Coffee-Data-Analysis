@@ -25,6 +25,8 @@ Conduct data inspection and quality checks to ensure the accuracy and reliabilit
 
 Bright Coffee Shop is on a strong growth trajectory, with clear strengths in its core products (Coffee and Tea) and peak performance during morning hours. By focusing on product optimization, targeted promotions, and time-based sales strategies, the CEO can further increase revenue and maximize business performance. The insights provided in this report will help guide strategic planning and support evidence-based decision-making.
 
+# Tech Tools Used
+
 | Tool                     |Purpose                                   |
 | ------------------------ | --------------------------------------------- |
 | SQL                      | Data extraction, querying, and transformation |
